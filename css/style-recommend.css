@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+body {
+    background: url(../images/bj1.png) fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 101%;
+}
+@font-face {
+    font-family: MD;
+    src: url(../font/MD.ttf);
+}
+#backdrop{
+    width: 100%;
+}
+#top{
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+}
+#top a,#top a:link,#top a:visited,#top a:hover,#top a:active{
+    width: 190px;
+    height: 60px;
+    display: block;
+    line-height: 80px;
+    font-family: MD;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+#nav{
+    width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+#nav .nav-backdrop{
+    width: 1100px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+#nav .nav-center{
+    float: left;
+}
+
+#nav .nav-link{
+    float: left;
+}
+#nav .logo{
+    margin-top: 2px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    background-image: url(../images/y2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -6px;  
+}
+#nav .logo:hover{
+    transform: scale(0.5);
+}
+#nav .nav-link{
+    margin-left: 40px;
+}
+#nav .nav-link a{
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+#nav .nav-link a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+#nav .nav-link a:active{
+    color: rgb(255, 255, 255);  
+    text-shadow: 0 0 10px hsl(0, 100%, 50%), 0 0 20px hsl(0, 100%, 50%), 0 0 40px hsl(0, 100%, 50%);
+}
+#content{
+    width: 1100px;
+    height: 1300px;
+    border-top: 1px solid #000;
+    margin: 0 auto;
+}
+#content .content-bj{
+    width: 1100px;
+    height: 1300px;
+    background: #000;
+    background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+#content ul{
+    width: 1020px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    list-style-type: none;
+}
+#content ul li{
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 2px dashed rgb(0, 81, 255);
+    padding: 30px;
+}
+#content ul li a img{
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s ease;
+    background-size: cover;
+    box-shadow: 0 0 30px #00ccff, 0 0 10px #00ccff;
+}
+#content ul li a img:hover{
+    transform: scale(1.5);
+}
+#content ul li span{
+    margin-left: 50px;
+    line-height: 80px;
+    position: absolute;
+    color: aqua;
+    font-weight: bolder;
+    text-shadow: 0 0 30px #00ccff, 0 0 10px #00ccff;
+}
+#bottom{
+    width: 100%;
+    height: 80px;
+    background: #000;
+}
+#bottom span{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+}
